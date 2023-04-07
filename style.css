@@ -1,0 +1,16 @@
+:root{
+    --clr-almost-white:hsl(0,0%,98%);
+    --clr-medium-gray:hsl(0,0%,41%);
+    --clr-almost-black:hsl(0,0%,8%);
+}
+
+/* Mobile : 375px */
+/* Desktop : 1440px */
+/* font size paragraph : 18px */
+/* weight :  500, 700 */
+
+*{
+    font-family: 'Epilogue', sans-serif;
+
+
+}
