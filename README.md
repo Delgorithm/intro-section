@@ -1,1 +1,1 @@
-# intro-section-with-dropdown-navigation
+# intro-section
