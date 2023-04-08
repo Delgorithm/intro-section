@@ -22,28 +22,44 @@
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
     </style>
   </head>
   <body>
     <main>
-      <header></header>
+      <header>
+        <nav class="navbar">
+          <div class="website-title">
+            <a href="#">Delgorithm</a>
+          </div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="navbar-login">
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <picture>
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="a user on his computer"
+          loading="lazy"
+        />
+      </picture>
       <div class="container">
-        <picture>
-          <img
-            src="./images/image-hero-mobile.png"
-            alt="a user on his computer"
-            loading="lazy"
-          />
-        </picture>
         <h1>Delgorithm's work</h1>
         <p>
           Currently learning HTML/CSS/JS by myself, in order to become a
@@ -52,18 +68,17 @@
         </p>
         <button type="button">Learn more</button>
       </div>
-      <footer></footer>
+      <footer>
+        <div class="picture-footer">
+          <picture>
+            <img src="./images/client-databiz.svg" alt="">
+            <img src="./images/client-audiophile.svg" alt="">
+            <img src="./images/client-meet.svg" alt="">
+            <img src="./images/client-maker.svg" alt="">
+          </picture>
+        </div>
+      </footer>
     </main>
-    Features Company Careers About Login Register Make remote work Get your team
-    in sync, no matter your location. Streamline processes, create team rituals,
-    and watch productivity soar. Learn more
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
